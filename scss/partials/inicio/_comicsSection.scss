@@ -1,0 +1,13 @@
+/*comics section*/
+.comic__content {
+  background-color: $body-bg;
+}
+
+.text {
+  color: $small-text-color;
+}
+
+.card__content {
+  @include between;
+}
+/*comics section End*/

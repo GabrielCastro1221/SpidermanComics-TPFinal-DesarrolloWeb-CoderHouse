@@ -1,0 +1,17 @@
+/*Login Page Style*/
+.bg {
+  background-image: url("../../../assets/img/fondoContact.jpg");
+  background-position: center center;
+}
+
+.login__text {
+  color: $small-text-color;
+}
+
+.link__login {
+  color: $btn-color;
+  &:hover {
+    color: $small-text-color;
+  }
+}
+/*Login Page Style End*/

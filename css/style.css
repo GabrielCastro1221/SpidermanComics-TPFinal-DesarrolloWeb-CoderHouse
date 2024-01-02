@@ -1,0 +1,262 @@
+@import "https://fonts.googleapis.com/css2?family=Coming+Soon&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+html,
+body {
+  background: #080335;
+  font-family: "Libre Baskerville", serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* re utilizables */
+.highlight {
+  color: #c02727;
+}
+
+ul {
+  list-style: none;
+}
+
+.btns {
+  border-radius: 4px;
+  margin: 8px;
+  border: none;
+  padding: 10px 22px;
+  background-color: #a01f1f;
+  color: #b2acac;
+  font-weight: 800;
+  margin-right: 20px;
+  text-align: center;
+  box-shadow: 3px 3px 8px -2px #290d0d;
+  transition: 0.8s ease all;
+}
+.btns:hover {
+  background-color: #c02727;
+  color: #080335;
+  cursor: pointer;
+}
+
+.para {
+  color: #b2acac;
+  line-height: 28px;
+}
+
+/* re utilizables End*/
+/*NavBar Styles*/
+.nav {
+  width: 100vw;
+  background-color: #080335;
+  border-bottom: 1px solid #0d0458;
+}
+
+.link__color {
+  color: #b2acac;
+}
+
+/*NavBar Styles End*/
+/* Hero Section*/
+.hero {
+  background-color: #080335;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #080335;
+}
+.hero .hero__title {
+  margin-top: 120px;
+  font-size: 68px;
+  line-height: 91px;
+  color: #b2acac;
+}
+.hero p {
+  font-size: 24px;
+}
+@media screen and (max-width: 748px) {
+  .hero .hero__title {
+    margin-top: 50px;
+  }
+}
+
+.hero__img {
+  height: 50%;
+  margin-top: 120px;
+  border-radius: 50%;
+}
+
+/* Hero Section End*/
+/* Galeria Styles*/
+.galery__section {
+  margin-top: 50px;
+  background-color: #080335;
+}
+
+.container_galery {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-gap: 20px;
+  padding: 100px 0;
+  margin-top: -70px;
+}
+@media screen and (max-width: 1280px) {
+  .container_galery .container_galery {
+    width: 100vw;
+    margin-left: 40px;
+  }
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px 8px -2px #290d0d;
+}
+.box img:hover {
+  box-shadow: 3px 3px 8px -5px var(--small-text-color);
+}
+
+.box:nth-child(1) {
+  grid-column-start: span 2;
+}
+
+.box:nth-child(4) {
+  grid-column-start: span 2;
+}
+
+/* Galeria Styles End*/
+/*comics section*/
+.comic__content {
+  background-color: #080335;
+}
+
+.text {
+  color: #b2acac;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*comics section End*/
+/*Contacto page Style*/
+.bg__contact {
+  background-image: url("../../../assets/img/fondoContact.jpg");
+  background-position: center center;
+}
+
+/*Contacto page Style End*/
+/*Login Page Style*/
+.bg {
+  background-image: url("../../../assets/img/fondoContact.jpg");
+  background-position: center center;
+}
+
+.login__text {
+  color: #b2acac;
+}
+
+.link__login {
+  color: #a01f1f;
+}
+.link__login:hover {
+  color: #b2acac;
+}
+
+/*Login Page Style End*/
+/* Register Page Style*/
+.link__register {
+  color: #b2acac;
+}
+.link__register:hover {
+  color: #a01f1f;
+}
+
+/* Register Page Style End*/
+/*Footer Styles*/
+.footer {
+  background-color: #080335;
+  padding-top: 70px;
+  border-top: 1px solid rgba(179, 173, 173, 0.2);
+}
+.footer .logo__footer {
+  width: 80px;
+  height: 80px;
+}
+.footer .text__footer {
+  color: #b2acac;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0 0 15px 0;
+}
+
+.footer__about .footer__logo {
+  margin-bottom: 30px;
+}
+.footer__about .footer__logo p {
+  margin-bottom: 30px;
+}
+
+.link__footer {
+  color: #b2acac;
+  font-size: 15px;
+  font-weight: 400;
+}
+.link__footer:hover {
+  color: #c02727;
+}
+
+.footer-widget h6 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.footer-widget h6 ul li {
+  line-height: 36px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer-widget .footer__newsletter form {
+  position: relative;
+}
+.footer-widget .footer__newsletter form input {
+  width: 100%;
+  font-size: 15px;
+  background: #ddd;
+  border: none;
+  padding: 15px 20px;
+  border-bottom: 2px solid #b2acac;
+}
+.footer-widget .footer__newsletter form button {
+  margin-top: 15px;
+}
+
+.footer-copyright-text {
+  border-top: 1px solid rgba(179, 173, 173, 0.2);
+  padding: 20px 0;
+  margin-top: 40px;
+}
+.footer-copyright-text p {
+  margin-bottom: 0;
+}
+
+/*Footer Styles End*/
+
+/*# sourceMappingURL=style.css.map */

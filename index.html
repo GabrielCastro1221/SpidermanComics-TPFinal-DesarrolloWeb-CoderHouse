@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Favicon-->
+    <link rel="icon" href="assets/img/favicon.png" />
+    <!--estilos CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Bootstrap 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="description"
+      content="En nuestra web podra encontrar comics de spiderMan para disfrutar en todo momento y en todo lugar. Gracias por visitar nuestra web."
+    />
+    <title>Spiderman Comics</title>
+  </head>
+  <body>
+    <!--NavBar-->
+    <header>
+      <nav class="navbar nav navbar-expand-lg">
+        <div class="container mr-2 p-1">
+          <a class="navbar-brand text-light ms-5 fs-4" href="#"
+            ><span class="highlight">.</span>SpiderMan<span class="highlight"
+              >Comics</span
+            ></a
+          >
+          <button
+            class="navbar-toggler bg-secondary m-2"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="bg-dark offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div
+              class="offcanvas-header drop__menu-bg border-bottom border-danger"
+            >
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand text-light" href="#"
+                  ><span class="highlight fs-4">.</span>SpiderMan<span
+                    class="highlight"
+                    >Comics</span
+                  ></a
+                >
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white shadow-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-1">
+              <ul
+                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+              >
+                <li class="nav-item mx-2">
+                  <a
+                    class="nav-link fs-5 text-danger"
+                    aria-current="page"
+                    href="#home"
+                    >Inicio</a
+                  >
+                </li>
+
+                <li class="nav-item mx-2 dropdown">
+                  <a class="nav-link text-light" href="#galeria"> Galeria </a>
+                </li>
+                <li class="nav-item mx-2 dropdown">
+                  <a class="nav-link text-light" href="#comics"> Comics </a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-light" href="./pages/contacto.html"
+                    >Contactanos</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row"
+              >
+                <a
+                  href="./pages/login.html"
+                  class="link__color text-decoration-none"
+                  >Ingresar</a
+                >
+                <a
+                  href="./pages/registro.html"
+                  class="btns text-decoration-none"
+                  >registrarse</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--NavBar End-->
+
+    <!--Contenido Home-->
+    <main>
+      <!--Hero section-->
+      <section class="hero pt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="hero__title fw-bold">
+                <h1>
+                  <span class="highlight">.</span>SpiderMan
+                  <span class="highlight">Comics</span>
+                </h1>
+              </div>
+              <p class="mt-5 para">
+                Luego de sufrir la picadura de una araña genéticamente
+                modificada, un estudiante de secundaria tímido y torpe adquiere
+                increíbles capacidades como arácnido. Pronto comprenderá que su
+                misión es utilizarlas para luchar contra el mal y defender a sus
+                vecinos.
+              </p>
+              <div class="cta mt-5 d-flex">
+                <a href="#comics" class="btns me-4 text-decoration-none"
+                  >Comics</a
+                >
+                <a
+                  href="https://api.whatsapp.com/send?phone=5491152576818"
+                  target="_blank"
+                  class="btns me-4 text-decoration-none"
+                  >Contactanos</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img
+                src="assets/img/heroImg.jpg"
+                alt="Imagen principal Spiderman"
+                class="hero__img w-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Hero section End-->
+
+      <!--Galeria-->
+      <section class="galery__section" id="galeria">
+        <div class="container_galery">
+          <div class="box">
+            <img src="assets/img/galery1.jpg" alt="galeria img 1" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery2.jpg" alt="galeria de spiderman imagen #2" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery3.jpg" alt="galeria img 3" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery4.jpg" alt="galeria img 4" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery5.jpg" alt="galeria img 5" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery6.jpg" alt="galeria img 6" />
+          </div>
+          <div class="box">
+            <img src="assets/img/galery7.jpg" alt="galeria img 7" />
+          </div>
+        </div>
+      </section>
+      <!--Galeria End-->
+
+      <!--comics Section-->
+      <section class="comic__content" id="comics">
+        <div class="container">
+          <h2 class="fs-1 fw-bold text-center para">
+            Todos los <span class="highlight">comics</span>
+          </h2>
+          <h3 class="fs-2 text fw-bold text-center">
+            Adentrate en el mundo de <span class="highlight">SpiderMan</span>
+          </h3>
+        </div>
+        <div class="container p-3">
+          <div class="row pt-5">
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/BenReilly/BenReillySpiderMan01/000.jpg"
+                  class="card-img-top"
+                  alt="Ben Reilly comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-4"
+                  >
+                    Ben Reilly
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/benReilly.html"
+                    class="btns text-decoration-none"
+                    >Leer Comic</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/CataclysmUltimateSpider-Man/000.jpg"
+                  class="card-img-top"
+                  alt="Cataclysm Ultimate comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-3"
+                  >
+                    Cataclysm
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/cataclysm.html"
+                    class="btns text-decoration-none"
+                    >Leer Comic</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/Non-Stop/000.jpg"
+                  class="card-img-top"
+                  alt="Non stop comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-4"
+                  >
+                    Non stop
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/nonStop.html"
+                    class="btns text-decoration-none"
+                    >Leer comic</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-3 p-3">
+          <div class="row">
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/Spiderman-Punk/Spider-Punk/000.jpg"
+                  class="card-img-top"
+                  alt="Spiderman Punk comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-2"
+                  >
+                    Spider-Punk
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/punk.html"
+                    class="btns text-decoration-none"
+                    >Leer comic</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/spidermanMagazine/00.jpg"
+                  class="card-img-top"
+                  alt="Spiderman magazine comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-4"
+                  >
+                    Magazine
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/spidermanMagazine.html"
+                    class="btns text-decoration-none"
+                    >Leer comic</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg mt-3">
+              <div
+                class="card card__content p-2"
+                style="background-color: #0d0458"
+              >
+                <img
+                  src="assets/comics/spidermanVsThor/001.jpg"
+                  class="card-img-top"
+                  alt="Spiderman Vs Thor comic imagen"
+                />
+                <div class="card-body">
+                  <h3
+                    class="card-title text-danger fw-bold text-uppercase fs-5 ms-2"
+                  >
+                    Hulks war
+                  </h3>
+                  <hr class="border-bottom border-danger fw-semibold" />
+                  <a
+                    href="pages/comics/spidermanVsThor.html"
+                    class="btns text-decoration-none"
+                    >Leer comic</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--comics Section End-->
+    </main>
+    <!--Contenido Home End-->
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__logo">
+                <a href=""
+                  ><img
+                    class="logo__footer"
+                    src="assets/img/favicon.png"
+                    alt="Logo Spiderman"
+                /></a>
+              </div>
+              <p class="text__footer">
+                Tercera pre-entrega desarrollo web
+                <span class="highlight">Coderhouse</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Link Rapidos</h6>
+              <ul>
+                <li>
+                  <a class="link__footer text-decoration-none" href="#"
+                    >Spiderman</a
+                  >
+                </li>
+                <li>
+                  <a class="link__footer text-decoration-none" href="#comics"
+                    >Comics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="pages/contacto.html"
+                    >Contactanos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Comics</h6>
+              <ul>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="pages/comics/benReilly.html"
+                    >Ben Reilly</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="pages/comics/cataclysm.html"
+                    >Cataclysm</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="pages/comics/nonStop.html"
+                    >Non Stop</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Recibir información</h6>
+              <div class="footer__newsletter">
+                <p class="text__footer">
+                  Se el primero en conocer nuestro nuevos comics.
+                </p>
+                <form action="#">
+                  <input type="text" placeholder="Tu correo electronico" />
+                  <button type="submit" class="btns">Suscribirse</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer-copyright-text">
+              <p class="text__footer">
+                <span class="highlight">Copyright &copy;</span> 2023 Todos los
+                derechos reservados
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+    <!--Bootstrap 5 Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+$primary-color: #c02727;
+$body-bg: #080335;
+$small-text-color: #b2acac;
+$card-bg: #0d0458;
+$font-name: "Libre Baskerville", serif;
+$btn-color: #a01f1f;
+$shadow: 3px 3px 8px -2px #290d0d;
+$shadow-hover: 3px 3px 8px -2px #461e1e;
+$carousel-card: rgba(9, 3, 63, 0.6);
+
+::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+html,
+body {
+  background: $body-bg;
+  font-family: $font-name;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* re utilizables */
+.highlight {
+  color: $primary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+.btns {
+  border-radius: 4px;
+  margin: 8px;
+  border: none;
+  padding: 10px 22px;
+  background-color: $btn-color;
+  color: $small-text-color;
+  font-weight: 800;
+  margin-right: 20px;
+  text-align: center;
+  box-shadow: $shadow;
+  transition: 0.8s ease all;
+  &:hover {
+    background-color: $primary-color;
+    color: $body-bg;
+    cursor: pointer;
+  }
+}
+
+.para {
+  color: $small-text-color;
+  line-height: 28px;
+}
+/* re utilizables End*/

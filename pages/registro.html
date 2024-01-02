@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="../assets/img/favicon.png" />
+    <title>SpiderMan comics || Registro</title>
+    <!--Bootstrap CSS CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--Styles CSS-->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!--NavBar-->
+    <header>
+      <nav class="navbar nav navbar-expand-lg">
+        <div class="container mr-2 p-1">
+          <a class="navbar-brand text-light ms-5 fs-4" href="#"
+            ><span class="highlight">.</span>SpiderMan<span class="highlight"
+              >Comics</span
+            ></a
+          >
+          <button
+            class="navbar-toggler bg-secondary gitshadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="bg-dark offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div
+              class="offcanvas-header drop__menu-bg border-bottom border-danger"
+            >
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand text-light" href="#"
+                  ><span class="highlight fs-4">.</span>SpiderMan<span
+                    class="highlight"
+                    >Comics</span
+                  ></a
+                >
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white shadow-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-1">
+              <ul
+                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+              >
+                <li class="nav-item mx-2">
+                  <a
+                    class="nav-link fs-5 text-light"
+                    aria-current="page"
+                    href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+
+                <li class="nav-item mx-2 dropdown">
+                  <a
+                    class="nav-link text-light fs-6"
+                    href="../index.html#galeria"
+                  >
+                    Galeria
+                  </a>
+                </li>
+                <li class="nav-item mx-2 dropdown">
+                  <a
+                    class="nav-link text-light fs-6"
+                    href="../index.html#comics"
+                  >
+                    Comics
+                  </a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-light fs-6" href="contacto.html"
+                    >Contactanos</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center gap-3 flex-lg-row"
+              >
+                <a
+                  href="login.html"
+                  class="link__color text-decoration-none text-danger fs-6"
+                  >Ingresar</a
+                >
+                <a href="registro.html" class="btns text-decoration-none"
+                  >registrarse</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--NavBar End-->
+
+    <!--Registro Content-->
+    <main class="mb-5">
+      <div class="container w-75 mt-5 rounded shadow border border-secondary">
+        <div class="row align-items-stretch">
+          <div
+            class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded"
+          ></div>
+          <div class="col p-5 rounded-end">
+            <div class="text-center">
+              <img src="../assets/img/favicon.png" width="60px" alt="Logo" />
+            </div>
+            <h2 class="fw-bold text-center pt-5 py-5 login__text">
+              Registrate
+            </h2>
+            <!--Login-->
+            <form>
+              <div class="mb-4">
+                <label for="nombre" class="form-label login__text"
+                  >Nombre completo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  name="nombre"
+                  placeholder="Nombre completo"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="email" class="form-label login__text"
+                  >Correo electronico</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  name="email"
+                  placeholder="Correo electronico"
+                />
+              </div>
+              <div class="mb-4">
+                <label for="password" class="form-label login__text"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  name="password"
+                  placeholder="Contraseña"
+                />
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btns">Registrate</button>
+              </div>
+            </form>
+            <!--redes sociales login-->
+            <div class="container w-100 my-5">
+              <div class="row text-center">
+                <div class="col-12 mb-3 fw-bold login__text">
+                  <a
+                    href="login.html"
+                    class="link__register text-decoration-none"
+                    >Iniciar sesion</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Registro Content End-->
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer__about">
+              <div class="footer__logo">
+                <a href=""
+                  ><img
+                    class="logo__footer"
+                    src="../assets/img/favicon.png"
+                    alt="Logo Spiderman"
+                /></a>
+              </div>
+              <p class="text__footer">
+                Tercera pre-entrega desarrollo web
+                <span class="highlight">Coderhouse</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Link Rapidos</h6>
+              <ul>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="../index.html"
+                    >Spiderman</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="../index.html#comics"
+                    >Comics</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="contacto.html"
+                    >Contactanos</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Comics</h6>
+              <ul>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="comics/benReilly.html"
+                    >Ben Reilly</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="comics/cataclysm.html"
+                    >Cataclysm</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="link__footer text-decoration-none"
+                    href="comics/nonStop.html"
+                    >Non Stop</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+            <div class="footer-widget">
+              <h6 class="highlight">Recibir información</h6>
+              <div class="footer__newsletter">
+                <p class="text__footer">
+                  Se el primero en conocer nuestro nuevos comics.
+                </p>
+                <form action="#">
+                  <input type="text" placeholder="Tu correo electronico" />
+                  <button type="submit" class="btns">Suscribirse</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="footer-copyright-text">
+              <p class="text__footer">
+                <span class="highlight">Copyright &copy;</span> 2023 Todos los
+                derechos reservados
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+    <!--Bootstrap JavaScript CDN-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
